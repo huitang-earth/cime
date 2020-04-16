@@ -1347,6 +1347,32 @@ using a fortran linker.
   </SLIBS>
 </compiler>
 
+ <compiler MACH="saga">
+    <CPPDEFS>
+     <append> -D$(OS) </append>
+    </CPPDEFS>
+    <FFLAGS>
+     <append> -xCORE-AVX2 -no-fma </append>
+    </FFLAGS>
+    <NETCDF_PATH>$(EBROOTNETCDFMINFORTRAN)</NETCDF_PATH>
+    <PNETCDF_PATH>$(EBROOTPNETCDF)</PNETCDF_PATH>
+    <MPI_PATH>$(MPI_ROOT)</MPI_PATH>
+    <MPI_LIB_NAME>mpi</MPI_LIB_NAME>
+    <FFLAGS>
+      <append DEBUG="FALSE"> -O2 </append>
+      <append MODEL="micom"> -r8 </append>
+      <append MODEL="cam"> -init=zero,arrays </append>
+    </FFLAGS>
+    <MPICC> mpiicc </MPICC>
+    <MPICXX> mpiicpc </MPICXX>
+    <MPIFC> mpiifort </MPIFC>
+    <PIO_FILESYSTEM_HINTS>lustre</PIO_FILESYSTEM_HINTS>
+    <SLIBS>
+      <append>-mkl=sequential -lnetcdff -lnetcdf</append>
+    </SLIBS>
+  </compiler>
+
+
 <compiler MACH="userdefined">
   <CONFIG_ARGS>
     <base/>
