@@ -193,7 +193,7 @@
     <values>
       <value datm_mode="CLM_QIAN$">CLM_QIAN.Solar,CLM_QIAN.Precip,CLM_QIAN.TPQW</value>
       <value datm_mode="CLM_QIAN_WISO">CLM_QIAN_WISO.Solar,CLM_QIAN_WISO.Precip,CLM_QIAN_WISO.TPQW</value>
-      <value datm_mode="CLM1PT">CLM1PT.$ATM_GRID</value>
+      <value datm_mode="CLM1PT">CLM1PT.$ATM_GRID.Solar,CLM1PT.$ATM_GRID.Precip,CLM1PT.$ATM_GRID.TPQW </value>
       <value datm_mode="CLMCRUNCEP$">CLMCRUNCEP.Solar,CLMCRUNCEP.Precip,CLMCRUNCEP.TPQW</value>
       <value datm_mode="CLMCRUNCEPv7">CLMCRUNCEPv7.Solar,CLMCRUNCEPv7.Precip,CLMCRUNCEPv7.TPQW</value>
       <value datm_mode="CLMGSWP3v1">CLMGSWP3v1.Solar,CLMGSWP3v1.Precip,CLMGSWP3v1.TPQW</value>
@@ -424,7 +424,7 @@
       <value stream="CLM1PT.1x1_mexicocityMEX">$DIN_LOC_ROOT/atm/datm7/CLM1PT_data/mexicocityMEX.c080124</value>
       <value stream="CLM1PT.1x1_vancouverCAN">$DIN_LOC_ROOT/atm/datm7/CLM1PT_data/vancouverCAN.c080124 </value>
       <value stream="CLM1PT.1x1_urbanc_alpha">$DIN_LOC_ROOT/atm/datm7/CLM1PT_data/urbanc_alpha.c080416 </value>
-      <value stream="CLM1PT.CLM_USRDAT">$DIN_LOC_ROOT_CLMFORC/$CLM_USRDAT_NAME/CLM1PT_data</value>
+      <value stream="CLM1PT.CLM_USRDAT">$DIN_LOC_ROOT_CLMFORC/$CLM_USRDAT_NAME</value>
       <value stream="CPLHISTForcing">$DATM_CPLHIST_DIR</value>
       <value stream="CLM_QIAN.Solar">$DIN_LOC_ROOT/atm/datm7/atm_forcing.datm7.Qian.T62.c080727/Solar6Hrly</value>
       <value stream="CLM_QIAN.Precip">$DIN_LOC_ROOT/atm/datm7/atm_forcing.datm7.Qian.T62.c080727/Precip6Hrly</value>
@@ -495,7 +495,7 @@
         clm1pt-0002-10.nc
         clm1pt-0002-11.nc
       </value>
-      <value  stream="CLM1PT.CLM_USRDAT">%ym.nc</value>
+      <value  stream="CLM1PT.CLM_USRDAT">clm1pt_${CLM_USRDAT_NAME}_%ym.nc</value>
       <value  stream="CPLHISTForcing.Solar">$DATM_CPLHIST_CASE.cpl.ha2x1hi.%ym.nc</value>
       <value  stream="CPLHISTForcing.nonSolarFlux">$DATM_CPLHIST_CASE.cpl.ha2x3h.%ym.nc</value>
       <value  stream="CPLHISTForcing.State3hr">$DATM_CPLHIST_CASE.cpl.ha2x3h.%ym.nc</value>
@@ -2275,16 +2275,21 @@
         PSRF     pbot
         FLDS     lwdn
       </value>
-      <value  stream="CLM1PT.CLM_USRDAT">
-        ZBOT     z
-        TBOT     tbot
-        RH       rh
-        WIND     wind
+
+      <value  stream="CLM1PT.CLM_USRDAT.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.CLM_USRDAT.Precip">
         PRECTmms precn
-        FSDS     swdn
+      </value>
+      <value  stream="CLM1PT.CLM_USRDAT.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
         PSRF     pbot
         FLDS     lwdn
       </value>
+
       <value stream="CPLHISTForcing.Solar">
         a2x1hi_Faxa_swndr swndr
         a2x1hi_Faxa_swvdr swvdr
@@ -2763,6 +2768,9 @@
     <values>
       <value>0</value>
       <value stream="CORE_IAF_JRA.*.GISS.SWDN">-5400</value>
+      <value stream="CLM1PT.CLM_USRDAT.Solar">0</value>
+      <value stream="CLM1PT.CLM_USRDAT.Precip">5400</value>
+      <value stream="CLM1PT.CLM_USRDAT.TPQW">5400</value>
       <value stream="CPLHISTForcing.Solar">2700</value>
       <value stream="CPLHISTForcing.nonSolarFlux">900</value>
       <value stream="CPLHISTForcing.State3hr">900</value>
@@ -3005,7 +3013,8 @@
       <value stream="CLM1PT.1x1_mexicocityMEX">nearest</value>
       <value stream="CLM1PT.1x1_vancouverCAN">nearest</value>
       <value stream="CLM1PT.1x1_urbanc_alpha">nearest</value>
-      <value stream="CLM1PT.CLM_USRDAT">nearest</value>
+      <value stream="CLM1PT.CLM_USRDAT.Solar">coszen</value>
+      <value stream="CLM1PT.CLM_USRDAT.Precip">nearest</value>
       <value stream="CPLHISTForcing.Solar">nearest</value>
       <value stream="CPLHISTForcing.nonSolarFlux">nearest</value>
       <value stream="CPLHISTForcing.State3hr">linear</value>
