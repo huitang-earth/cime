@@ -10,7 +10,7 @@
        This file may have atm desc entries.
   -->
   <description modifier_mode="1">
-    <desc atm="DATM[%QIA][%WISOQIA][%CRU][%CRUv7][%GSWP3v1][%MOSARTTEST][%NLDAS2][%CPLHIST][%1PT][%NYF][%IAF][%JRA][%JRA-1p4-2018]"> Data driven ATM </desc>
+    <desc atm="DATM[%QIA][%WISOQIA][%CRU][%CRUv7][%GSWP3v1][%MOSARTTEST][%NLDAS2][%CPLHIST][%1PT][%1PTGSWP3][%1PTCOSMOREA6][%1PTERALAND][%NYF][%IAF][%JRA][%JRA-1p4-2018]"> Data driven ATM </desc>
     <desc option="QIA"> QIAN data set </desc>
     <desc option="WISOQIA">QIAN with water isotopes</desc>
     <desc option="CRU"> CRUNCEP data set </desc>
@@ -20,6 +20,9 @@
     <desc option="NLDAS2"> NLDAS2 regional 0.125 degree data set over the U.S. (25-53N, 235-293E). WARNING: Garbage data will be produced for runs extending beyond this regional domain. </desc>
     <desc option="CPLHIST"> Coupler hist data set (in this mode, it is strongly recommended that the model domain and the coupler history forcing are on the same domain)</desc>
     <desc option="1PT">single point tower site data set </desc>
+    <desc option="1PTGSWP3">single point tower site data set </desc>
+    <desc option="1PTCOSMOREA6">single point tower site data set </desc>
+    <desc option="1PTERALAND">single point tower site data set </desc>
     <desc option="NYF">COREv2 normal year forcing</desc>
     <desc option="IAF">COREv2 interannual forcing</desc>
     <desc option="JRA">interannual JRA55 forcing</desc>
@@ -61,6 +64,9 @@ data (see cime issue #3653 -- https://github.com/ESMCI/cime/issues/3653).
       <value compset="%MOSARTTEST">CLMMOSARTTEST</value>
       <value compset="%NLDAS2">CLMNLDAS2</value>
       <value compset="%1PT">CLM1PT</value>
+      <value compset="%1PTGSWP3">CLM1PT</value>
+      <value compset="%1PTCOSMOREA6">CLM1PT</value>
+      <value compset="%1PTERALAND">CLM1PT</value>
       <value compset="%CPLHIST">CPLHIST</value>
     </values>
   </entry>
@@ -241,6 +247,9 @@ data (see cime issue #3653 -- https://github.com/ESMCI/cime/issues/3653).
     <default_value>2004</default_value>
     <values match="last">
       <value compset="2000.*_DATM%1PT">1972</value>
+      <value compset="2000.*_DATM%1PTGSWP3">1901</value>
+      <value compset="2000.*_DATM%1PTCOSMOREA6">1995</value>
+      <value compset="2000.*_DATM%1PTERALAND">1980</value>
       <value compset="1850.*_DATM%QIA">1948</value>
       <value compset="1850.*_DATM%CRU">1901</value>
       <value compset="1850.*_DATM%GSW">1901</value>
@@ -283,6 +292,9 @@ data (see cime issue #3653 -- https://github.com/ESMCI/cime/issues/3653).
     <default_value>2004</default_value>
     <values match="last">
       <value   compset="2000.*_DATM%1PT">2004</value>
+      <value   compset="2000.*_DATM%1PTGSWP3">1950</value>
+      <value   compset="2000.*_DATM%1PTCOSMOREA6">2015</value>
+      <value   compset="2000.*_DATM%1PTERALAND">2000</value>
       <value   compset="1850.*_DATM%QIA">1972</value>
       <value   compset="1850.*_DATM%CRU">1920</value>
       <value   compset="1850.*_DATM%GSW">1920</value>
