@@ -2756,9 +2756,9 @@ This allows using a different mpirun command to launch unit tests
     <OS>LINUX</OS>
     <COMPILERS>intel</COMPILERS>
     <MPILIBS>impi</MPILIBS>
-    <CIME_OUTPUT_ROOT>/cluster/work/users/$USER/noresm</CIME_OUTPUT_ROOT>
-    <DIN_LOC_ROOT>/cluster/shared/noresm/inputdata</DIN_LOC_ROOT>
-    <DIN_LOC_ROOT_CLMFORC>UNSET</DIN_LOC_ROOT_CLMFORC>
+    <CIME_OUTPUT_ROOT>/cluster/work/users/$USER/ctsm</CIME_OUTPUT_ROOT>
+    <DIN_LOC_ROOT>/cluster/shared/noresm/inputdata/fates_emerald</DIN_LOC_ROOT>
+    <DIN_LOC_ROOT_CLMFORC>/cluster/shared/noresm/inputdata/fates_emerald/atm/datm7/fates_platform</DIN_LOC_ROOT_CLMFORC>
     <DOUT_S_ROOT>/cluster/work/users/$USER/archive/$CASE</DOUT_S_ROOT>
     <!--DOUT_L_MSROOT>UNSET</DOUT_L_MSROOT-->
     <BASELINE_ROOT>UNSET</BASELINE_ROOT>
