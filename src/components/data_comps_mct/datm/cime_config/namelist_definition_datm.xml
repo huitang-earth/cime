@@ -437,6 +437,14 @@
       <value stream="CLM1PT.1x1_BOR2">$DIN_LOC_ROOT_CLMFORC/BOR2</value>
       <value stream="CLM1PT.1x1_BOR3">$DIN_LOC_ROOT_CLMFORC/BOR3</value>
       <value stream="CLM1PT.1x1_BOR4">$DIN_LOC_ROOT_CLMFORC/BOR4</value>
+      <value stream="CLM1PT.1x1_LYG">$DIN_LOC_ROOT_CLMFORC/LYG</value>
+      <value stream="CLM1PT.1x1_BUO">$DIN_LOC_ROOT_CLMFORC/BUO</value>
+      <value stream="CLM1PT.1x1_HAV">$DIN_LOC_ROOT_CLMFORC/HAV</value>
+      <value stream="CLM1PT.1x1_SKO">$DIN_LOC_ROOT_CLMFORC/SKO</value>
+      <value stream="CLM1PT.1x1_VIKE">$DIN_LOC_ROOT_CLMFORC/VIKE</value>
+      <value stream="CLM1PT.1x1_JOAS">$DIN_LOC_ROOT_CLMFORC/JOAS</value>
+      <value stream="CLM1PT.1x1_LIAH">$DIN_LOC_ROOT_CLMFORC/LIAH</value>
+      <value stream="CLM1PT.1x1_FINN">$DIN_LOC_ROOT_CLMFORC/FINN</value>
       <value stream="CLM1PT.CLM_USRDAT">$DIN_LOC_ROOT_CLMFORC/$CLM_USRDAT_NAME</value>
       <value stream="CPLHISTForcing">$DATM_CPLHIST_DIR</value>
       <value stream="CLM_QIAN.Solar">$DIN_LOC_ROOT/atm/datm7/atm_forcing.datm7.Qian.T62.c080727/Solar6Hrly</value>
@@ -520,6 +528,14 @@
       <value  stream="CLM1PT.1x1_BOR2">clm1pt_BOR2_%ym.nc</value>
       <value  stream="CLM1PT.1x1_BOR3">clm1pt_BOR3_%ym.nc</value>
       <value  stream="CLM1PT.1x1_BOR4">clm1pt_BOR4_%ym.nc</value>
+      <value  stream="CLM1PT.1x1_LYG">clm1pt_LYG_%ym.nc</value>
+      <value  stream="CLM1PT.1x1_BUO">clm1pt_BUO_%ym.nc</value>
+      <value  stream="CLM1PT.1x1_HAV">clm1pt_HAV_%ym.nc</value>
+      <value  stream="CLM1PT.1x1_SKO">clm1pt_SKO_%ym.nc</value>
+      <value  stream="CLM1PT.1x1_VIKE">clm1pt_VIKE_%ym.nc</value>
+      <value  stream="CLM1PT.1x1_JOAS">clm1pt_JOAS_%ym.nc</value>
+      <value  stream="CLM1PT.1x1_LIAH">clm1pt_LIAH_%ym.nc</value>
+      <value  stream="CLM1PT.1x1_FINN">clm1pt_FINN_%ym.nc</value>
       <value  stream="CLM1PT.CLM_USRDAT">clm1pt_${CLM_USRDAT_NAME}_%ym.nc</value>
       <value  stream="CPLHISTForcing.Solar">$DATM_CPLHIST_CASE.cpl.ha2x1hi.%ym.nc</value>
       <value  stream="CPLHISTForcing.nonSolarFlux">$DATM_CPLHIST_CASE.cpl.ha2x3h.%ym.nc</value>
@@ -2483,6 +2499,119 @@
         FLDS     lwdn
       </value>
 
+      <value  stream="CLM1PT.1x1_LYG.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.1x1_LYG.Precip">
+        PRECTmms precn
+      </value>
+      <value  stream="CLM1PT.1x1_LYG.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+      </value>
+
+      <value  stream="CLM1PT.1x1_BUO.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.1x1_BUO.Precip">
+        PRECTmms precn
+      </value>
+      <value  stream="CLM1PT.1x1_BUO.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+      </value>
+
+      <value  stream="CLM1PT.1x1_HAV.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.1x1_HAV.Precip">
+        PRECTmms precn
+      </value>
+      <value  stream="CLM1PT.1x1_HAV.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+      </value>
+
+      <value  stream="CLM1PT.1x1_SKO.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.1x1_SKO.Precip">
+        PRECTmms precn
+      </value>
+      <value  stream="CLM1PT.1x1_SKO.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+      </value>
+
+      <value  stream="CLM1PT.1x1_VIKE.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.1x1_VIKE.Precip">
+        PRECTmms precn
+      </value>
+      <value  stream="CLM1PT.1x1_VIKE.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+      </value>
+
+      <value  stream="CLM1PT.1x1_JOAS.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.1x1_JOAS.Precip">
+        PRECTmms precn
+      </value>
+      <value  stream="CLM1PT.1x1_JOAS.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+      </value>
+
+      <value  stream="CLM1PT.1x1_LIAH.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.1x1_LIAH.Precip">
+        PRECTmms precn
+      </value>
+      <value  stream="CLM1PT.1x1_LIAH.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+      </value>
+
+      <value  stream="CLM1PT.1x1_FINN.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.1x1_FINN.Precip">
+        PRECTmms precn
+      </value>
+      <value  stream="CLM1PT.1x1_FINN.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+      </value>
+
+
       <value stream="CPLHISTForcing.Solar">
         a2x1hi_Faxa_swndr swndr
         a2x1hi_Faxa_swvdr swvdr
@@ -3002,6 +3131,30 @@
       <value stream="CLM1PT.1x1_BOR4.Solar">0</value>
       <value stream="CLM1PT.1x1_BOR4.Precip">5400</value>
       <value stream="CLM1PT.1x1_BOR4.TPQW">5400</value>
+      <value stream="CLM1PT.1x1_LYG.Solar">0</value>
+      <value stream="CLM1PT.1x1_LYG.Precip">5400</value>
+      <value stream="CLM1PT.1x1_LYG.TPQW">5400</value>
+      <value stream="CLM1PT.1x1_BUO.Solar">0</value>
+      <value stream="CLM1PT.1x1_BUO.Precip">5400</value>
+      <value stream="CLM1PT.1x1_BUO.TPQW">5400</value>
+      <value stream="CLM1PT.1x1_HAV.Solar">0</value>
+      <value stream="CLM1PT.1x1_HAV.Precip">5400</value>
+      <value stream="CLM1PT.1x1_HAV.TPQW">5400</value>
+      <value stream="CLM1PT.1x1_SKO.Solar">0</value>
+      <value stream="CLM1PT.1x1_SKO.Precip">5400</value>
+      <value stream="CLM1PT.1x1_SKO.TPQW">5400</value>
+      <value stream="CLM1PT.1x1_VIKE.Solar">0</value>
+      <value stream="CLM1PT.1x1_VIKE.Precip">5400</value>
+      <value stream="CLM1PT.1x1_VIKE.TPQW">5400</value>
+      <value stream="CLM1PT.1x1_JOAS.Solar">0</value>
+      <value stream="CLM1PT.1x1_JOAS.Precip">5400</value>
+      <value stream="CLM1PT.1x1_JOAS.TPQW">5400</value>
+      <value stream="CLM1PT.1x1_LIAH.Solar">0</value>
+      <value stream="CLM1PT.1x1_LIAH.Precip">5400</value>
+      <value stream="CLM1PT.1x1_LIAH.TPQW">5400</value>
+      <value stream="CLM1PT.1x1_FINN.Solar">0</value>
+      <value stream="CLM1PT.1x1_FINN.Precip">5400</value>
+      <value stream="CLM1PT.1x1_FINN.TPQW">5400</value>
       <value stream="CPLHISTForcing.Solar">2700</value>
       <value stream="CPLHISTForcing.nonSolarFlux">900</value>
       <value stream="CPLHISTForcing.State3hr">900</value>
@@ -3268,6 +3421,22 @@
       <value stream="CLM1PT.1x1_BOR3.Precip">nearest</value>
       <value stream="CLM1PT.1x1_BOR4.Solar">coszen</value>
       <value stream="CLM1PT.1x1_BOR4.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_LYG.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_LYG.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_BUO.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_BUO.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_HAV.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_HAV.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_SKO.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_SKO.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_VIKE.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_VIKE.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_JOAS.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_JOAS.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_LIAH.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_LIAH.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_FINN.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_FINN.Precip">nearest</value>
       <value stream="CPLHISTForcing.Solar">nearest</value>
       <value stream="CPLHISTForcing.nonSolarFlux">nearest</value>
       <value stream="CPLHISTForcing.State3hr">linear</value>
@@ -3339,6 +3508,14 @@
       <value atm_grid="1x1_BOR2">cycle</value>
       <value atm_grid="1x1_BOR3">cycle</value>
       <value atm_grid="1x1_BOR4">cycle</value>
+      <value atm_grid="1x1_LYG">cycle</value>
+      <value atm_grid="1x1_BUO">cycle</value>
+      <value atm_grid="1x1_HAV">cycle</value>
+      <value atm_grid="1x1_SKO">cycle</value>
+      <value atm_grid="1x1_VIKE">cycle</value>
+      <value atm_grid="1x1_JOAS">cycle</value>
+      <value atm_grid="1x1_LIAH">cycle</value>
+      <value atm_grid="1x1_FINN">cycle</value>
     </values>
   </entry>
 

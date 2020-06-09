@@ -182,6 +182,54 @@
       <grid name="rof">null</grid>
     </model_grid>
 
+    <model_grid alias="1x1_LYG" compset="DATM.+CLM">
+      <grid name="atm">1x1_LYG</grid>
+      <grid name="lnd">1x1_LYG</grid>
+      <grid name="rof">null</grid>
+    </model_grid>
+
+    <model_grid alias="1x1_BUO" compset="DATM.+CLM">
+      <grid name="atm">1x1_BUO</grid>
+      <grid name="lnd">1x1_BUO</grid>
+      <grid name="rof">null</grid>
+    </model_grid>
+
+    <model_grid alias="1x1_HAV" compset="DATM.+CLM">
+      <grid name="atm">1x1_HAV</grid>
+      <grid name="lnd">1x1_HAV</grid>
+      <grid name="rof">null</grid>
+    </model_grid>
+
+    <model_grid alias="1x1_SKO" compset="DATM.+CLM">
+      <grid name="atm">1x1_SKO</grid>
+      <grid name="lnd">1x1_SKO</grid>
+      <grid name="rof">null</grid>
+    </model_grid>
+
+    <model_grid alias="1x1_VIKE" compset="DATM.+CLM">
+      <grid name="atm">1x1_VIKE</grid>
+      <grid name="lnd">1x1_VIKE</grid>
+      <grid name="rof">null</grid>
+    </model_grid>
+
+    <model_grid alias="1x1_JOAS" compset="DATM.+CLM">
+      <grid name="atm">1x1_JOAS</grid>
+      <grid name="lnd">1x1_JOAS</grid>
+      <grid name="rof">null</grid>
+    </model_grid>
+
+    <model_grid alias="1x1_LIAH" compset="DATM.+CLM">
+      <grid name="atm">1x1_LIAH</grid>
+      <grid name="lnd">1x1_LIAH</grid>
+      <grid name="rof">null</grid>
+    </model_grid>
+
+    <model_grid alias="1x1_FINN" compset="DATM.+CLM">
+      <grid name="atm">1x1_FINN</grid>
+      <grid name="lnd">1x1_FINN</grid>
+      <grid name="rof">null</grid>
+    </model_grid>
+
     <model_grid alias="1x1_urbanc_alpha" compset="DATM.+CLM">
       <grid name="atm">1x1_urbanc_alpha</grid>
       <grid name="lnd">1x1_urbanc_alpha</grid>
@@ -1452,6 +1500,54 @@
       <nx>1</nx> <ny>1</ny>
       <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/BOR4/domain.lnd.BOR4.200422.nc</file>
       <desc>1x1 SeedClim BOR4 site -- only valid for DATM/CLM compset</desc>
+    </domain>
+
+    <domain name="1x1_LYG">
+      <nx>1</nx> <ny>1</ny>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/LYG/domain.lnd.LYG.200605.nc</file>
+      <desc>1x1 Landpress LYG1-3 site -- only valid for DATM/CLM compset</desc>
+    </domain>
+
+    <domain name="1x1_BUO">
+      <nx>1</nx> <ny>1</ny>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/BUO/domain.lnd.BUO.200605.nc</file>
+      <desc>1x1 Landpress BUO site -- only valid for DATM/CLM compset</desc>
+    </domain>
+
+    <domain name="1x1_HAV">
+      <nx>1</nx> <ny>1</ny>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/HAV/domain.lnd.HAV.200605.nc</file>
+      <desc>1x1 Landpress HAV site -- only valid for DATM/CLM compset</desc>
+    </domain>
+
+    <domain name="1x1_SKO">
+      <nx>1</nx> <ny>1</ny>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/SKO/domain.lnd.SKO.200605.nc</file>
+      <desc>1x1 Landpress SKO site -- only valid for DATM/CLM compset</desc>
+    </domain>
+
+    <domain name="1x1_VIKE">
+      <nx>1</nx> <ny>1</ny>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/VIKE/domain.lnd.VIKE.200605.nc</file>
+      <desc>1x1 Three-D VIKE site -- only valid for DATM/CLM compset</desc>
+    </domain>
+
+    <domain name="1x1_JOAS">
+      <nx>1</nx> <ny>1</ny>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/JOAS/domain.lnd.JOAS.200605.nc</file>
+      <desc>1x1 Three-D JOAS site -- only valid for DATM/CLM compset</desc>
+    </domain>
+
+    <domain name="1x1_LIAH">
+      <nx>1</nx> <ny>1</ny>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/LIAH/domain.lnd.LIAH.200605.nc</file>
+      <desc>1x1 Three-D LIAH site -- only valid for DATM/CLM compset</desc>
+    </domain>
+
+    <domain name="1x1_FINN">
+      <nx>1</nx> <ny>1</ny>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/FINN/domain.lnd.FINN.200605.nc</file>
+      <desc>1x1 Finnmark site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_urbanc_alpha">
