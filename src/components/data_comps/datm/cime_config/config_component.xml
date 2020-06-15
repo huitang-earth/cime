@@ -6,7 +6,6 @@
        '1' exactly 1 modifier
        '?' 0 or 1 modifiers
        '+' 1 or more modifiers
-
        This file may have atm desc entries.
   -->
   <description modifier_mode="1">
@@ -38,7 +37,7 @@
 
   <entry id="DATM_MODE">
     <type>char</type>
-    <valid_values>CORE2_NYF,CORE2_IAF,CLM_QIAN,CLM_QIAN_WISO,CLM1PT,CLMCRUNCEP,CLMCRUNCEPv7,CLMGSWP3v1,CPLHIST,CORE_IAF_JRA,CORE_IAF_JRA_1p4_2018</valid_values>
+    <valid_values>COSMOREA6,CORE2_NYF,CORE2_IAF,CLM_QIAN,CLM_QIAN_WISO,CLM1PT,CLMCRUNCEP,CLMCRUNCEPv7,CLMGSWP3v1,CPLHIST,CORE_IAF_JRA,CORE_IAF_JRA_1p4_2018</valid_values>
     <default_value>CORE2_NYF</default_value>
     <group>run_component_datm</group>
     <file>env_run.xml</file>
