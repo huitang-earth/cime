@@ -1432,73 +1432,73 @@
 
     <domain name="1x1_ALP1">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/ALP1/domain.lnd.ALP1.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/ALP1/domain.lnd.ALP1.200422.nc</file>
       <desc>1x1 SeedClim ALP1 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_ALP2">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/ALP2/domain.lnd.ALP2.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/ALP2/domain.lnd.ALP2.200422.nc</file>
       <desc>1x1 SeedClim ALP2 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_ALP3">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/ALP3/domain.lnd.ALP3.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/ALP3/domain.lnd.ALP3.200422.nc</file>
       <desc>1x1 SeedClim ALP3 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_ALP4">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/ALP4/domain.lnd.ALP4.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/ALP4/domain.lnd.ALP4.200422.nc</file>
       <desc>1x1 SeedClim ALP4 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_SUB1">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/SUB1/domain.lnd.SUB1.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/SUB1/domain.lnd.SUB1.200422.nc</file>
       <desc>1x1 SeedClim SUB1 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_SUB2">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/SUB2/domain.lnd.SUB2.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/SUB2/domain.lnd.SUB2.200422.nc</file>
       <desc>1x1 SeedClim SUB2 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_SUB3">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/SUB3/domain.lnd.SUB3.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/SUB3/domain.lnd.SUB3.200422.nc</file>
       <desc>1x1 SeedClim SUB3 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_SUB4">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/SUB4/domain.lnd.SUB4.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/SUB4/domain.lnd.SUB4.200422.nc</file>
       <desc>1x1 SeedClim SUB4 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_BOR1">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/BOR1/domain.lnd.BOR1.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/BOR1/domain.lnd.BOR1.200422.nc</file>
       <desc>1x1 SeedClim BOR1 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_BOR2">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/BOR2/domain.lnd.BOR2.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/BOR2/domain.lnd.BOR2.200422.nc</file>
       <desc>1x1 SeedClim BOR2 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_BOR3">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/BOR3/domain.lnd.BOR3.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/BOR3/domain.lnd.BOR3.200422.nc</file>
       <desc>1x1 SeedClim BOR3 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_BOR4">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/fates_platform/BOR4/domain.lnd.BOR4.200422.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/BOR4/domain.lnd.BOR4.200422.nc</file>
       <desc>1x1 SeedClim BOR4 site -- only valid for DATM/CLM compset</desc>
     </domain>
 

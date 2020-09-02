@@ -355,11 +355,45 @@
       <value stream="presaero.clim_2010" cime_model="cesm">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.trans_1850-2000" cime_model="cesm">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
 
+      <value stream="presaero.clim_1850">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_ALP1">ALP1/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_ALP1.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_ALP2">ALP2/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_ALP2.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_ALP3">ALP3/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_ALP3.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_ALP4">ALP4/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_ALP4.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_SUB1">SUB1/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_SUB1.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_SUB2">SUB2/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_SUB2.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_SUB3">SUB3/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_SUB3.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_SUB4">SUB4/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_SUB4.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_BOR1">BOR1/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR1.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_BOR2">BOR2/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR2.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_BOR3">BOR3/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR3.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_BOR4">BOR4/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR4.nc</value>
+      <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+        
+      <value stream="presaero.clim_2010">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.trans_1850-2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.SSP1-2.6">aerodep_clm_SSP126_b.e21.BSSP126cmip6.f09_g17.CMIP6-SSP1-2.6.001_2014-2101_monthly_0.9x1.25_c190523.nc</value>
       <value stream="presaero.SSP2-4.5">aerodep_clm_SSP245_b.e21.BWSSP245cmip6.f09_g17.CMIP6-SSP2-4.5-WACCM.001_2014-2101_monthly_0.9x1.25_c190401.nc</value>
       <value stream="presaero.SSP3-7.0">aerodep_clm_SSP370_b.e21.BWSSP370cmip6.f09_g17.CMIP6-SSP3-7.0-WACCM.001_2014-2101_monthly_0.9x1.25_c190402.nc</value>
       <value stream="presaero.SSP5-3.4">null</value>
       <value stream="presaero.SSP5-8.5">aerodep_clm_SSP585_b.e21.BSSP585cmip6.f09_g17.CMIP6-SSP5-8.5.001_2014-2101_monthly_0.9x1.25_c190419.nc</value>
       <value stream="topo.observed">topodata_0.9x1.25_USGS_070110_stream_c151201.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_ALP1">ALP1/topodata_ALP1.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_ALP2">ALP2/topodata_ALP2.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_ALP3">ALP3/topodata_ALP3.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_ALP4">ALP4/topodata_ALP4.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_SUB1">SUB1/topodata_SUB1.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_SUB2">SUB2/topodata_SUB2.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_SUB3">SUB3/topodata_SUB3.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_SUB4">SUB4/topodata_SUB4.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_BOR1">BOR1/topodata_BOR1.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_BOR2">BOR2/topodata_BOR2.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_BOR3">BOR3/topodata_BOR3.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_BOR4">BOR4/topodata_BOR4.nc</value>
       <value stream="topo.cplhist">null</value>
     </values>
   </entry>
@@ -2252,6 +2286,18 @@
 
       <value stream="presaero.clim_1850">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_ALP1">ALP1/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_ALP1.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_ALP2">ALP2/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_ALP2.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_ALP3">ALP3/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_ALP3.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_ALP4">ALP4/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_ALP4.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_SUB1">SUB1/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_SUB1.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_SUB2">SUB2/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_SUB2.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_SUB3">SUB3/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_SUB3.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_SUB4">SUB4/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_SUB4.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_BOR1">BOR1/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR1.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_BOR2">BOR2/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR2.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_BOR3">BOR3/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR3.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_BOR4">BOR4/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR4.nc</value>        
       <value stream="presaero.clim_2010">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.trans_1850-2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
 
@@ -2270,6 +2316,18 @@
       <value stream="presaero.SSP5-3.4">null</value>
       <value stream="presaero.SSP5-8.5">aerodep_clm_SSP585_b.e21.BSSP585cmip6.f09_g17.CMIP6-SSP5-8.5.001_2014-2101_monthly_0.9x1.25_c190419.nc</value>
       <value stream="topo.observed">topodata_0.9x1.25_USGS_070110_stream_c151201.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_ALP1">ALP1/topodata_ALP1.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_ALP2">ALP2/topodata_ALP2.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_ALP3">ALP3/topodata_ALP3.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_ALP4">ALP4/topodata_ALP4.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_SUB1">SUB1/topodata_SUB1.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_SUB2">SUB2/topodata_SUB2.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_SUB3">SUB3/topodata_SUB3.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_SUB4">SUB4/topodata_SUB4.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_BOR1">BOR1/topodata_BOR1.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_BOR2">BOR2/topodata_BOR2.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_BOR3">BOR3/topodata_BOR3.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_BOR4">BOR4/topodata_BOR4.nc</value>
     </values>
   </entry>
 
