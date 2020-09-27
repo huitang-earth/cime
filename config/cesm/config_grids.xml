@@ -1504,49 +1504,49 @@
 
     <domain name="1x1_LYG">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/LYG/domain.lnd.LYG.200604.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/LYG/domain.lnd.LYG.200927.nc</file>
       <desc>1x1 Landpress LYG1-3 site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_BUO">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/BUO/domain.lnd.BUO.200604.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/BUO/domain.lnd.BUO.200927.nc</file>
       <desc>1x1 Landpress BUO site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_HAV">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/HAV/domain.lnd.HAV.200604.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/HAV/domain.lnd.HAV.200927.nc</file>
       <desc>1x1 Landpress HAV site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_SKO">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/SKO/domain.lnd.SKO.200604.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/SKO/domain.lnd.SKO.200927.nc</file>
       <desc>1x1 Landpress SKO site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_VIKE">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/VIKE/domain.lnd.VIKE.200604.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/VIKE/domain.lnd.VIKE.200927.nc</file>
       <desc>1x1 Three-D VIKE site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_JOAS">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/JOAS/domain.lnd.JOAS.200604.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/JOAS/domain.lnd.JOAS.200927.nc</file>
       <desc>1x1 Three-D JOAS site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_LIAH">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/LIAH/domain.lnd.LIAH.200604.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/LIAH/domain.lnd.LIAH.200927.nc</file>
       <desc>1x1 Three-D LIAH site -- only valid for DATM/CLM compset</desc>
     </domain>
 
     <domain name="1x1_FINN">
       <nx>1</nx> <ny>1</ny>
-      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/FINN/domain.lnd.FINN.200605.nc</file>
+      <file grid="atm|lnd">$DIN_LOC_ROOT/share/domains/FINN/domain.lnd.FINN.200927.nc</file>
       <desc>1x1 Finnmark site -- only valid for DATM/CLM compset</desc>
     </domain>
 
