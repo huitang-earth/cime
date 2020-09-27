@@ -369,6 +369,14 @@
       <value stream="presaero.clim_2000" atm_grid="1x1_BOR2">BOR2/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR2.nc</value>
       <value stream="presaero.clim_2000" atm_grid="1x1_BOR3">BOR3/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR3.nc</value>
       <value stream="presaero.clim_2000" atm_grid="1x1_BOR4">BOR4/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR4.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_LYG">LYG/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_LYG.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_BUO">BUO/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BUO.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_HAV">HAV/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_HAV.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_SKO">SKO/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_SKO.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_VIKE">VIKE/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_VIKE.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_JOAS">JOAS/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_JOAS.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_LIAH">LIAH/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_LIAH.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_FINN">FINN/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_FINN.nc</value>
       <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
@@ -394,6 +402,14 @@
       <value stream="topo.observed" atm_grid="1x1_BOR2">BOR2/topodata_BOR2.nc</value>
       <value stream="topo.observed" atm_grid="1x1_BOR3">BOR3/topodata_BOR3.nc</value>
       <value stream="topo.observed" atm_grid="1x1_BOR4">BOR4/topodata_BOR4.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_LYG">LYG/topodata_LYG.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_BUO">BUO/topodata_BUO.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_HAV">HAV/topodata_HAV.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_SKO">SKO/topodata_SKO.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_VIKE">VIKE/topodata_VIKE.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_JOAS">JOAS/topodata_JOAS.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_LIAH">LIAH/topodata_LIAH.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_FINN">FINN/topodata_FINN.nc</value>
       <value stream="topo.cplhist">null</value>
     </values>
   </entry>
@@ -2297,7 +2313,15 @@
       <value stream="presaero.clim_2000" atm_grid="1x1_BOR1">BOR1/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR1.nc</value>
       <value stream="presaero.clim_2000" atm_grid="1x1_BOR2">BOR2/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR2.nc</value>
       <value stream="presaero.clim_2000" atm_grid="1x1_BOR3">BOR3/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR3.nc</value>
-      <value stream="presaero.clim_2000" atm_grid="1x1_BOR4">BOR4/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR4.nc</value>        
+      <value stream="presaero.clim_2000" atm_grid="1x1_BOR4">BOR4/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BOR4.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_LYG">LYG/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_LYG.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_BUO">BUO/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_BUO.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_HAV">HAV/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_HAV.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_SKO">SKO/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_SKO.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_VIKE">VIKE/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_VIKE.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_JOAS">JOAS/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_JOAS.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_LIAH">LIAH/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_LIAH.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_FINN">FINN/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_FINN.nc</value>        
       <value stream="presaero.clim_2010">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.trans_1850-2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
 
@@ -2328,6 +2352,14 @@
       <value stream="topo.observed" atm_grid="1x1_BOR2">BOR2/topodata_BOR2.nc</value>
       <value stream="topo.observed" atm_grid="1x1_BOR3">BOR3/topodata_BOR3.nc</value>
       <value stream="topo.observed" atm_grid="1x1_BOR4">BOR4/topodata_BOR4.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_LYG">LYG/topodata_LYG.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_BUO">BUO/topodata_BUO.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_HAV">HAV/topodata_HAV.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_SKO">SKO/topodata_SKO.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_VIKE">VIKE/topodata_VIKE.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_JOAS">JOAS/topodata_JOAS.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_LIAH">LIAH/topodata_LIAH.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_FINN">FINN/topodata_FINN.nc</value>
     </values>
   </entry>
 
@@ -3471,6 +3503,8 @@
       <value stream="CLM1PT.1x1_SUB2.Precip">nearest</value>
       <value stream="CLM1PT.1x1_SUB3.Solar">coszen</value>
       <value stream="CLM1PT.1x1_SUB3.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_SUB4.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_SUB4.Precip">nearest</value>
       <value stream="CLM1PT.1x1_BOR1.Solar">coszen</value>
       <value stream="CLM1PT.1x1_BOR1.Precip">nearest</value>
       <value stream="CLM1PT.1x1_BOR2.Solar">coszen</value>
