@@ -373,6 +373,8 @@
       <value stream="presaero.clim_2000" atm_grid="1x1_JOAS">JOAS/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_JOAS.nc</value>
       <value stream="presaero.clim_2000" atm_grid="1x1_LIAH">LIAH/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_LIAH.nc</value>
       <value stream="presaero.clim_2000" atm_grid="1x1_FINN">FINN/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_FINN.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_GRUVE1">GRUVE1/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_GRUVE1.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_IMINGFJELL">IMINGFJELL/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_IMINGFJELL.nc</value>
       <value stream="presaero.clim_1850" cime_model="cesm">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.clim_2000" cime_model="cesm">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.clim_2010" cime_model="cesm">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
@@ -402,6 +404,8 @@
       <value stream="topo.observed" atm_grid="1x1_JOAS">JOAS/topodata_JOAS.nc</value>
       <value stream="topo.observed" atm_grid="1x1_LIAH">LIAH/topodata_LIAH.nc</value>
       <value stream="topo.observed" atm_grid="1x1_FINN">FINN/topodata_FINN.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_GRUVE1">GRUVE1/topodata_GRUVE1.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_IMINGFJELL">IMINGFJELL/topodata_IMINGFJELL.nc</value>            
       <value stream="topo.cplhist">null</value>
     </values>
   </entry>
@@ -487,6 +491,8 @@
       <value stream="CLM1PT.1x1_JOAS">$DIN_LOC_ROOT_CLMFORC/JOAS</value>
       <value stream="CLM1PT.1x1_LIAH">$DIN_LOC_ROOT_CLMFORC/LIAH</value>
       <value stream="CLM1PT.1x1_FINN">$DIN_LOC_ROOT_CLMFORC/FINN</value>
+      <value stream="CLM1PT.1x1_GRUVE1">$DIN_LOC_ROOT_CLMFORC/GRUVE1</value>
+      <value stream="CLM1PT.1x1_IMINGFJELL">$DIN_LOC_ROOT_CLMFORC/IMINGFJELL</value>
       <value stream="CLM1PT.CLM_USRDAT">$DIN_LOC_ROOT_CLMFORC/$CLM_USRDAT_NAME</value>
       <value stream="CPLHISTForcing">$DATM_CPLHIST_DIR</value>
       <value stream="CLM_QIAN.Solar">$DIN_LOC_ROOT/atm/datm7/atm_forcing.datm7.Qian.T62.c080727/Solar6Hrly</value>
@@ -578,6 +584,8 @@
       <value  stream="CLM1PT.1x1_JOAS">clm1pt_JOAS_%ym.nc</value>
       <value  stream="CLM1PT.1x1_LIAH">clm1pt_LIAH_%ym.nc</value>
       <value  stream="CLM1PT.1x1_FINN">clm1pt_FINN_%ym.nc</value>
+      <value  stream="CLM1PT.1x1_GRUVE1">clm1pt_GRUVE1_%ym.nc</value>
+      <value  stream="CLM1PT.1x1_IMINGFJELL">clm1pt_IMINGFJELL_%ym.nc</value>
       <value  stream="CLM1PT.CLM_USRDAT">clm1pt_${CLM_USRDAT_NAME}_%ym.nc</value>
       <value  stream="CPLHISTForcing.Solar">$DATM_CPLHIST_CASE.cpl.ha2x1hi.%ym.nc</value>
       <value  stream="CPLHISTForcing.nonSolarFlux">$DATM_CPLHIST_CASE.cpl.ha2x3h.%ym.nc</value>
@@ -2309,7 +2317,9 @@
       <value stream="presaero.clim_2000" atm_grid="1x1_VIKE">VIKE/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_VIKE.nc</value>
       <value stream="presaero.clim_2000" atm_grid="1x1_JOAS">JOAS/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_JOAS.nc</value>
       <value stream="presaero.clim_2000" atm_grid="1x1_LIAH">LIAH/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_LIAH.nc</value>
-      <value stream="presaero.clim_2000" atm_grid="1x1_FINN">FINN/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_FINN.nc</value>        
+      <value stream="presaero.clim_2000" atm_grid="1x1_FINN">FINN/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_FINN.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_GRUVE1">GRUVE1/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_GRUVE1.nc</value>
+      <value stream="presaero.clim_2000" atm_grid="1x1_IMINGFJELL">IMINGFJELL/aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926_IMINGFJELL.nc</value>        
       <value stream="presaero.clim_2010">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.trans_1850-2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.clim_1850" cime_model="cesm">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
@@ -2352,6 +2362,8 @@
       <value stream="topo.observed" atm_grid="1x1_JOAS">JOAS/topodata_JOAS.nc</value>
       <value stream="topo.observed" atm_grid="1x1_LIAH">LIAH/topodata_LIAH.nc</value>
       <value stream="topo.observed" atm_grid="1x1_FINN">FINN/topodata_FINN.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_GRUVE1">GRUVE1/topodata_GRUVE1.nc</value>
+      <value stream="topo.observed" atm_grid="1x1_IMINGFJELL">IMINGFJELL/topodata_IMINGFJELL.nc</value>
     </values>
   </entry>
 
@@ -2686,6 +2698,34 @@
         PRECTmms precn
       </value>
       <value  stream="CLM1PT.1x1_FINN.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+      </value>
+      
+      <value  stream="CLM1PT.1x1_GRUVE1.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.1x1_GRUVE1.Precip">
+        PRECTmms precn
+      </value>
+      <value  stream="CLM1PT.1x1_GRUVE1.TPQW">
+        TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+      </value>
+      
+      <value  stream="CLM1PT.1x1_IMINGFJELL.Solar">
+        FSDS swdn
+      </value>
+      <value  stream="CLM1PT.1x1_IMINGFJELL.Precip">
+        PRECTmms precn
+      </value>
+      <value  stream="CLM1PT.1x1_IMINGFJELL.TPQW">
         TBOT     tbot
         WIND     wind
         QBOT     shum
@@ -3237,6 +3277,12 @@
       <value stream="CLM1PT.1x1_FINN.Solar">0</value>
       <value stream="CLM1PT.1x1_FINN.Precip">5400</value>
       <value stream="CLM1PT.1x1_FINN.TPQW">5400</value>
+      <value stream="CLM1PT.1x1_GRUVE1.Solar">0</value>
+      <value stream="CLM1PT.1x1_GRUVE1.Precip">5400</value>
+      <value stream="CLM1PT.1x1_GRUVE1.TPQW">5400</value>
+      <value stream="CLM1PT.1x1_IMINGFJELL.Solar">0</value>
+      <value stream="CLM1PT.1x1_IMINGFJELL.Precip">5400</value>
+      <value stream="CLM1PT.1x1_IMINGFJELL.TPQW">5400</value>
       <value stream="CPLHISTForcing.Solar">2700</value>
       <value stream="CPLHISTForcing.nonSolarFlux">900</value>
       <value stream="CPLHISTForcing.State3hr">900</value>
@@ -3521,6 +3567,10 @@
       <value stream="CLM1PT.1x1_LIAH.Precip">nearest</value>
       <value stream="CLM1PT.1x1_FINN.Solar">coszen</value>
       <value stream="CLM1PT.1x1_FINN.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_GRUVE1.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_GRUVE1.Precip">nearest</value>
+      <value stream="CLM1PT.1x1_IMINGFJELL.Solar">coszen</value>
+      <value stream="CLM1PT.1x1_IMINGFJELL.Precip">nearest</value>
       <value stream="CPLHISTForcing.Solar">nearest</value>
       <value stream="CPLHISTForcing.nonSolarFlux">nearest</value>
       <value stream="CPLHISTForcing.State3hr">linear</value>
@@ -3600,6 +3650,8 @@
       <value atm_grid="1x1_JOAS">cycle</value>
       <value atm_grid="1x1_LIAH">cycle</value>
       <value atm_grid="1x1_FINN">cycle</value>
+      <value atm_grid="1x1_GRUVE1">cycle</value>
+      <value atm_grid="1x1_IMINGFJELL">cycle</value>
     </values>
   </entry>
 

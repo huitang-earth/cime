@@ -229,6 +229,18 @@
       <grid name="lnd">1x1_FINN</grid>
       <grid name="rof">null</grid>
     </model_grid>
+    
+    <model_grid alias="1x1_GRUVE1" compset="DATM.+CLM">
+      <grid name="atm">1x1_GRUVE1</grid>
+      <grid name="lnd">1x1_GRUVE1</grid>
+      <grid name="rof">null</grid>
+    </model_grid>
+    
+     <model_grid alias="1x1_IMINGFJELL" compset="DATM.+CLM">
+      <grid name="atm">1x1_IMINGFJELL</grid>
+      <grid name="lnd">1x1_IMINGFJELL</grid>
+      <grid name="rof">null</grid>
+    </model_grid>   
 
     <model_grid alias="1x1_urbanc_alpha" compset="DATM.+CLM">
       <grid name="atm">1x1_urbanc_alpha</grid>
